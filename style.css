@@ -389,6 +389,9 @@ footer{
 }
 
 
+
+
+
 @media (max-width: 400px) {
     .sobre-mi {
       
@@ -424,7 +427,7 @@ footer{
 
 @media screen and (min-width:700px ) {
     .hero-inferior-imagen{
-        max-width: 700px;
+        max-width: 600px;
     }
 }
 
@@ -435,11 +438,12 @@ footer{
     }
     
     .testimonio-texto{
-        font-size: 16px;
+        font-size: 18px;
        
     }
 
 }
+
 @media screen and (max-width:400px ) {
     .testimonio-imagen{
         width: 80px;
@@ -447,9 +451,11 @@ footer{
     }
     
     .testimonio-texto{
-        font-size: 10px;
-        
-
+        font-size: 12px;
+       
+    }
+    .seccion-descripcion{
+        font-size: 12px;
     }
 
 }
