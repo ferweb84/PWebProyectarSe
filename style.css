@@ -385,7 +385,36 @@ footer{
     .overlay i{
         font-size: 40px;
     }
+
 }
+
+
+@media (max-width: 400px) {
+    .sobre-mi {
+      
+      color: #fff; /* Cambia el color del texto según tu preferencia */
+      padding: 10px; /* Ajusta el espaciado como desees */
+
+    }
+
+    .hero-principal {
+      text-align: center !important; /* Centra el texto y anula estilos anteriores */
+    }
+
+    .hero-imagen-desarrollador {
+        max-width: 25%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+        height: auto; /* Mantiene la proporción original de la imagen */
+        transform: translateY(20px); /* Desplaza la imagen hacia abajo */
+        transition: transform 0.3s; /* Agrega una transición suave */
+    }
+
+    .seccion-texto {
+      font-size: 16px; /* Cambia el tamaño de fuente según tu preferencia */
+      line-height: 1.5; /* Ajusta el espaciado entre líneas del texto */
+      text-align: center !important; /* Centra el texto y anula estilos anteriores */
+    }
+    
+  }
 
 @media screen and (max-width: 767px) {
     .navbar-brand{
@@ -402,10 +431,25 @@ footer{
 @media screen and (max-width:800px ) {
     .testimonio-imagen{
         width: 120px;
-        width: 120px;
+        height: 120px;
     }
     
     .testimonio-texto{
-        font-size: 18px;
+        font-size: 16px;
+       
     }
+
+}
+@media screen and (max-width:400px ) {
+    .testimonio-imagen{
+        width: 80px;
+        height: 80px;
+    }
+    
+    .testimonio-texto{
+        font-size: 10px;
+        
+
+    }
+
 }
