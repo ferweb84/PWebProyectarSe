@@ -83,11 +83,11 @@ h1 {
     padding: 3rem;
 }
 
-.hero-imagen-desarrollador{
-    width: 120px;
-    height: 120px;
-    border-radius: 10%;
-    margin: 10px;
+.hero-imagen-educacion{
+    width: 5500px;
+    height: 400px;
+    border-radius: 5%;
+    margin: -20px;
 }
 
 .hero-principal h2 {
@@ -96,7 +96,7 @@ h1 {
 }
 
 .sobre-mi{
-    height: 700px;
+    height: 800px;
     padding: 10px;
 }
 
