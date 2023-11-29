@@ -480,4 +480,18 @@ footer{
         font-size: 12px;
     }
 
+    .hero-imagen-educacion{
+        width: 320px;
+        height: 250px;
+    }
+
+    .seccion-titulo{
+        font-size: 25px;
+    }
+
+    .vimeo-player{
+        width: 350px;
+        height: 280px;
+    }
+
 }
