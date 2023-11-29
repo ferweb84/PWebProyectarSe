@@ -495,3 +495,32 @@ footer{
     }
 
 }
+@media screen and (max-width:300px ) {
+    .testimonio-imagen{
+        width: 80px;
+        height: 80px;
+    }
+    
+    .testimonio-texto{
+        font-size: 12px;
+       
+    }
+    .seccion-descripcion{
+        font-size: 12px;
+    }
+
+    .hero-imagen-educacion{
+        width: 280px;
+        height: 200px;
+    }
+
+    .seccion-titulo{
+        font-size: 25px;
+    }
+
+    .vimeo-player{
+        width: 240px;
+        height: 180px;
+    }
+
+}
